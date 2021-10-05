@@ -99,13 +99,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://65.2.80.202:8081/repository/santoshinc-release</url>
+	      <url>http://13.233.45.241:8081/repository/santoshinc-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://65.2.80.202:8081/repository/santoshinc-snapshot</url>
+	      <url>http://13.233.45.241:8081/repository/santoshinc-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
