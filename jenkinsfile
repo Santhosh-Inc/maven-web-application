@@ -1,0 +1,28 @@
+node{
+    
+    def mavenHome=tool name: "santoshmaven"
+    
+    properties([buildDiscarder(logRotator(artifactDaysToKeepStr: '', artifactNumToKeepStr: '5', daysToKeepStr: '5', numToKeepStr: '')), [$class: 'JobLocalConfiguration', changeReasonComment: '']])
+    
+stage('Checkoutcode'){
+    git branch: 'development', credentialsId: '81c63041-7385-4ef5-be2b-fc96138a43b3', url: 'https://github.com/Santhosh-Inc/maven-web-application.git'
+    }
+stage('Build'){
+sh "${mavenHome}/bin/mvn clean package"
+}
+stage('SonarTesting'){
+    sh "${mavenHome}/bin/mvn clean sonar:sonar"
+}
+stage('Deploy to Nexus'){
+    sh "${mavenHome}/bin/mvn clean deploy"
+}
+stage('Confirmation E-mail'){
+mail bcc: '', body: '''Dear All!!!..,,
+
+Build is done and its a 
+
+
+Regards
+CEO | SantoshInc.,''', cc: '', from: '', replyTo: '', subject: 'Build is Done', to: 'santoshb8143@gmail.com'
+}
+    }
