@@ -4,13 +4,13 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>MithunTechnologies- Home Page</title>
+<title>SantoshInc.,- Home Page</title>
 <link href="images/mithunlogo.jpg" rel="icon">
 </head>
 </head>
 <body>
 <h1 align="center">Welcome to MSS. - GitHub Webhook Demo... </h1>
-<h1 align="center"> Welcome to Mithun Software Solutions.......We have a demo on  DevOps Master Program on  9th October  2021  at 7 PM IST for new batch. , This is a weekdays batch  . MSS- Very Good Training center for DevOps with AWS in Maratha Halli and also for Job Assitance Job Support also...Teaching Real Time scnerios and use cases... Some fake guys are giving the fake reviews dont believe those guys..I am requesting everyone. Please give your reviews in FB and Google.</h1>
+<h1 align="center"> All Are welcome to Santosh Inc., One of the Biggest MNC in World</h1>
 <hr>
 <div style="text-align: center;">
 	<span>
