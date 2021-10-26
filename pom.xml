@@ -21,8 +21,8 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://13.233.98.133:9000/</sonar.host.url>
-                <sonar.login>69d806e460d9ee9a78324e472bf78c3a9b221256</sonar.login>
+		<sonar.host.url>http://15.207.202.240:9000/</sonar.host.url>
+                <sonar.login>eb6b5d5dd4f4de7d6699bd61195dfac11e0ba9db</sonar.login>
 		
               
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -99,13 +99,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://52.66.246.246:8081/repository/santoshinc-release/</url>
+	      <url>http://35.154.23.206:8081/repository/santoshnexus/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository</name>
-	      <url>http://52.66.246.246:8081/repository/santoshinc-snapshot/</url>
+	      <url>http://35.154.23.206:8081/repository/santoshnexus-snpsht/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
